@@ -64,3 +64,4 @@ buck-out/
 prod.env
 staging.env
 my-upload-key.keystore
+env.tar
