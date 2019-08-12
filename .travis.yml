@@ -17,5 +17,5 @@ before_install:
 install:
   - npm install
 script: 
-  gulp set --env=staging
-  cd android && ./gradlew assemble
+- if [ "$TRAVIS_BRANCH" = "master" ]; then gulp set --env=prod; echo "-----------------------PROD ENV-----------------------";  cd android && ./gradlew assemble;  fi
+- if [ "$TRAVIS_BRANCH" = "staging" ]; then gulp set --env=staging; echo "-----------------------STAGING ENV-----------------------";  cd android && ./gradlew assemble;  fi
