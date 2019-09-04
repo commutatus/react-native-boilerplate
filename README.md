@@ -16,8 +16,8 @@ After cloning and npm install please follow the steps below, later env file and 
 #### Step 2 :Install `npm install react-native-rename -g` and run  `react-native-rename newName` this helps to rename build artifact and app name. more info check this [link](https://www.npmjs.com/package/react-native-rename).
 #### Step 3 : Create `staging.env` and `prod.env` at `/env` folder.
 #### Step 4 : run `./run.sh`  at root.
--  ####This is a custom script to select evn and build type
--  ####We can also select env directly by running `./run.sh staging`
+-  This is a custom script to select evn and build type
+-  We can also select env directly by running `./run.sh staging`
 
 __That's it 🎉__
 
