@@ -1,7 +1,6 @@
 # React Native Awesome Boilerplate
 
-###List of integrations out of the box
-
+__List of integrations out of the box__
 - [x] React native 0.60
 - [x] React native router flex
 - [x] Redux
@@ -9,7 +8,7 @@
 - [x] Travis
 - [x] Environment variables setup
 
-##Usage
+__Usage__
 
 After cloning and npm install please follow the steps below, later env file and variable names can be changed and this boilerplate is completely customizable.
 
@@ -20,6 +19,6 @@ After cloning and npm install please follow the steps below, later env file and 
 -  ####This is a custom script to select evn and build type
 -  ####We can also select env directly by running `./run.sh staging`
 
-#That's it 🎉
+__That's it 🎉__
 
 Enjoy coding and feel free to give feedbacks.
