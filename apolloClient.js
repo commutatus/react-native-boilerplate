@@ -2,8 +2,7 @@ import { ApolloClient } from 'apollo-client';
 import { HttpLink } from 'apollo-link-http';
 import { ApolloLink } from 'apollo-link'
 import { InMemoryCache } from 'apollo-cache-inmemory';
-const GRAPHQL_ENDPOINT = `https://dingo.climber-staging.staging.c66.me/graphql`;
-//const GRAPHQL_ENDPOINT = `https://api.mycaptain.co.in/graphql`;
+const GRAPHQL_ENDPOINT = `ENTER YOUR GRAPHQL ENDPOINT HERE. DON'T FORGET TO ADD /graphql TO THE END OF THE URL.`;
 
 let token
 export const setToken = (newToken) => {
