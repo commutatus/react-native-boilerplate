@@ -10,6 +10,7 @@ __List of integrations out of the box__
 
 __Social login__
 - [x] Facebook
+- [x] Google
 
 __Usage__
 

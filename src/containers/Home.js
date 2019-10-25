@@ -8,6 +8,8 @@ import {
 } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 import FacebookLogin from '../containers/FacebookLogin'
+import GoogleLogin from '../containers/GoogleLogin'
+
 const App = () => {
   return (
     <View style={styles.body}>
@@ -29,7 +31,12 @@ const App = () => {
         <View style={styles.strip}>
           <Text style={styles.stripLabel}>Social logins :</Text>
         </View>
-        <FacebookLogin />
+        <View style={styles.socialLoginContainer}>
+          <View style={styles.margin}>
+            <FacebookLogin />
+          </View>
+          <GoogleLogin />
+        </View>
       </View>
     </View>
   );
@@ -65,6 +72,12 @@ const styles = StyleSheet.create({
     padding: 10,
     fontSize: 20,
     textAlign: 'center'
+  },
+  socialLoginContainer: {
+    alignSelf: 'center'
+  },
+  margin: {
+    marginVertical: 10
   }
 
 });
