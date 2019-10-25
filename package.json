@@ -10,6 +10,7 @@
   "dependencies": {
     "apollo-boost": "^0.4.3",
     "apollo-client": "^2.6.3",
+    "eslint-utils": "^1.4.3",
     "graphql": "^14.4.2",
     "graphql-tag": "^2.10.1",
     "gulp": "^4.0.2",
@@ -17,8 +18,9 @@
     "gulp-rename": "^1.4.0",
     "react": "16.8.6",
     "react-apollo": "^3.0.0",
-    "react-native": "0.60.4",
+    "react-native": "^0.61.0",
     "react-native-dotenv": "^0.2.0",
+    "react-native-fbsdk": "^1.0.4",
     "react-native-router-flux": "^4.0.6",
     "react-redux": "^7.1.0",
     "redux": "^4.0.4"

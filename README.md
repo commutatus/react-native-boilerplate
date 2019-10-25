@@ -1,12 +1,15 @@
 # React Native Awesome Boilerplate
 
 __List of integrations out of the box__
-- [x] React native 0.60
+- [x] React native 0.61
 - [x] React native router flex
 - [x] Redux
 - [x] GraphQL
 - [x] Travis
 - [x] Environment variables setup
+
+__Social login__
+- [x] Facebook
 
 __Usage__
 

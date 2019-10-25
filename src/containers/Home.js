@@ -7,14 +7,14 @@ import {
   TouchableOpacity
 } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-
+import FacebookLogin from '../containers/FacebookLogin'
 const App = () => {
   return (
     <View style={styles.body}>
       <Text style={styles.sectionDescription}>Welcome to React Native Awesome boilerplate.</Text>
       <View style={styles.container}>
         <View style={styles.strip}>
-          <Text style={styles.stripLabel}>Contents:</Text>
+          <Text style={styles.stripLabel}>Integrations :</Text>
         </View>
         <Text style={styles.title}>1. React native router flex.</Text>
         <Text style={styles.title}>2. Travis integrated.</Text>
@@ -24,8 +24,12 @@ const App = () => {
         <Text style={styles.title}>6. Basic env setup (staging / prod).</Text>
         <Text style={styles.title}>7. Options to switch env</Text>
         <TouchableOpacity style={styles.button} onPress={() => Actions.sampleScreen()}>
-          <Text style={styles.buttonText}>Click here to navigate</Text>
+          <Text style={styles.buttonText}>Press to test navigate</Text>
         </TouchableOpacity>
+        <View style={styles.strip}>
+          <Text style={styles.stripLabel}>Social logins :</Text>
+        </View>
+        <FacebookLogin />
       </View>
     </View>
   );
