@@ -23,6 +23,19 @@ After cloning and npm install please follow the steps below, later env file and 
 -  This is a custom script to select env and build type
 -  We can also select env directly by running `./run.sh staging`
 
+__Social Login__
+
+### FOR FACEBOOK
+
+#### Step 1 : Create a facebook app from [link](https://www.facebook.com/login/?next=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Freact-native%2Fgetting-started)
+#### Step 2 : After creating app follow [link](https://developers.facebook.com/quickstarts) select platform (Android or iOS)
+#### Step 3 : Follow the steps listed. 
+
+
+### FOR GOOGLE
+
+#### Step 1 : Create a Google app following this [link](https://github.com/react-native-community/react-native-google-signin/blob/master/docs/get-config-file.md)
+ 
 __That's it 🎉__
 
 Enjoy coding and feel free to give feedbacks.
