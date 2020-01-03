@@ -7,7 +7,7 @@ import {
   TouchableOpacity
 } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-import { APP_ENV } from 'react-native-dotenv'
+// import { APP_ENV } from 'react-native-dotenv'
 import { connect } from 'react-redux'
 
 const SampleScreen = (props) => {
@@ -19,7 +19,7 @@ const SampleScreen = (props) => {
         <View style={styles.strip}>
           <Text style={styles.stripLabel}>Default configs:</Text>
         </View>
-        <Text style={styles.title}>1. App environment -> {APP_ENV}</Text>
+        <Text style={styles.title}>1. App environment -> {"APP_ENV"}</Text>
         <Text style={styles.title}>2. Redux store -> {sampleData.data}</Text>
         <TouchableOpacity style={styles.button} onPress={() => Actions.pop()}>
           <Text style={styles.buttonText}>Go back</Text>
