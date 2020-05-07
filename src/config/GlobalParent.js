@@ -38,8 +38,8 @@ export const GlobalParent = (Child) => {
 
     handleInternetConnection = (state) => {
       let { isInternetConnected } = this.state;
-      if (isInternetConnected !== state?.isConnected) {
-        this.setState({ isInternetConnected: state?.isConnected });
+      if (isInternetConnected !== state?.isInternetReachable) {
+        this.setState({ isInternetConnected: state?.isInternetReachable });
       }
     };
 
