@@ -9,11 +9,17 @@ Navigation.events().registerAppLaunchedListener(() => {
         children: [
           {
             component: {
-              name: "Splash"
-            }
-          }
-        ]
-      }
-    }
+              name: "Splash",
+              options: {
+                topBar: {
+                  visible: false,
+                  enabled: false,
+                },
+              },
+            },
+          },
+        ],
+      },
+    },
   });
 });

@@ -108,7 +108,8 @@ def enableProguardInReleaseBuilds = false
  * give correct results when using with locales other than en-US.  Note that
  * this variant is about 6MiB larger per architecture than default.
  */
-def jscFlavor = 'org.webkit:android-jsc:+'
+// def jscFlavor = 'org.webkit:android-jsc:+'
+def jscFlavor = 'org.chromium:v8-android:+'
 
 /**
  * Whether to enable the Hermes VM.
@@ -142,6 +143,7 @@ configurations.all {
         multiDexEnabled true
         applicationId "com.reactnativeboilerplate"
         minSdkVersion rootProject.ext.minSdkVersion
+        missingDimensionStrategy "RNN.reactNativeVersion", "reactNative60"
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
@@ -213,12 +215,12 @@ configurations.all {
         pickFirst '**/x86/libc++_shared.so'
         pickFirst '**/arm64-v8a/libc++_shared.so'
         pickFirst '**/x86_64/libc++_shared.so'
-        pickFirst '**/x86/libjsc.so'
-        pickFirst '**/armeabi-v7a/libjsc.so'
+        exclude "**/libjsc.so"
     }
 }
 
 dependencies {
+    implementation project(':@react-native-community_async-storage')
     implementation 'com.android.support:multidex:1.0.3'
     implementation 'com.android.support:design:25.4.0'
     implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
