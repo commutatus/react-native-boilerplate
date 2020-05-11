@@ -42,8 +42,15 @@ __Social Login__
 
 ### MAKING A RELEASE BUILD
 
-__Upcoming Integrations__
-- [ ] Microsoft AppCenter
+#### Update : To make a release build run the following command from the project root directory `cd android && ./gradlew app:assembleRelease`. You can use `app:bundleRelease` to create a `.AAB` file.
+ 
+__That's it 🎉__
+
+__Upcoming features__
+- [ ] Microsoft Appcenter
 - [ ] Codepush
+- [ ] Firebase
+- [ ] Instabug
+- [ ] Smartlook
 
 Enjoy coding and feel free to give feedbacks.
