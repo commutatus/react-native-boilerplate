@@ -1,9 +1,13 @@
 # React Native Awesome Boilerplate
 
 __List of integrations out of the box__
-- [x] React native 0.61
-- [x] React native router flex
+- [x] React native 0.61.5
+- [x] React native navigation by WIX
 - [x] Redux
+- [x] Redux thunk
+- [x] Redux persist
+- [x] Redux logger
+- [x] V8 JS engine
 - [x] GraphQL
 - [x] Travis
 - [x] Environment variables setup
@@ -35,7 +39,11 @@ __Social Login__
 ### FOR GOOGLE
 
 #### Step 1 : Create a Google app [link](https://github.com/react-native-community/react-native-google-signin/blob/master/docs/get-config-file.md)
- 
-__That's it 🎉__
+
+### MAKING A RELEASE BUILD
+
+__Upcoming Integrations__
+- [ ] Microsoft AppCenter
+- [ ] Codepush
 
 Enjoy coding and feel free to give feedbacks.
