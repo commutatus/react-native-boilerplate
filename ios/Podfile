@@ -30,6 +30,8 @@ target 'ReactNativeBoilerplate' do
 
   pod 'RNGoogleSignin', :path => '../node_modules/@react-native-community/google-signin'
 
+  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
+
   target 'ReactNativeBoilerplateTests' do
     inherit! :search_paths
     # Pods for testing

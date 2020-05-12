@@ -1,6 +1,6 @@
-import { combineReducers } from 'redux'
-import { sampleReducer } from './reducers/sampleReducer'
+import { combineReducers } from "redux";
+import { appStateReducers } from "redux-local/reducers/appStateReducer";
 
 export const allReducers = combineReducers({
-  sample: sampleReducer
-})
+  app: appStateReducers,
+});
